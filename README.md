@@ -28,6 +28,11 @@ Likewise, you can change the default path by editing `~/Desktop/`
 Every time you change the function, you will need to re-run `source .bashrc` 
 so the shell knows it has changed
 
+## Move this function out of .bashrc
+Here are directions for creating a separate file in which to place functions so you don't clutter your .bashrc/.zshrc
+
+https://github.com/BrockNicholas/CustomShellFunction
+
 ## Get rid of it
 To remove the function from your shell:
 `unset -f gt`
