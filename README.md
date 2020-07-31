@@ -10,7 +10,7 @@ Add the following to .bashrc (or .zshrc if using ZSH)
 >}
 
 In Terminal/Shell run \
-`. .bashrc` (or `. .zshrc` for ZSH)
+`source .bashrc` (or `. .zshrc` for ZSH)
 
 This will tell the Terminal about your new command
 
@@ -24,5 +24,5 @@ Likewise, you can change the default path by editing `~/Desktop/`
 
 `"$1"` is the parameter passed to the function. Feel free to edit/remove the parameter for your needs
 
-Every time you change the function, you will need to re-run `. .bashrc` 
+Every time you change the function, you will need to re-run `source .bashrc` 
 so the shell knows it has changed
