@@ -18,6 +18,7 @@ This will tell the Terminal about your new command
 Now run `gt /folder_on_your-desktop` to navigate to a folder on your Desktop 
 without having to type the full `cd ~/Desktop/folder-on_your_desktop`
 
+I called the function "gt" since I want to "go to" a folder on my desktop. 
 You can change the name of the command by renaming the function in your .bashrc (or .zshrc)
 
 Likewise, you can change the default path by editing `~/Desktop/`
@@ -26,3 +27,7 @@ Likewise, you can change the default path by editing `~/Desktop/`
 
 Every time you change the function, you will need to re-run `source .bashrc` 
 so the shell knows it has changed
+
+## Get rid of it
+To remove the function from your shell:
+`unset -f gt`
